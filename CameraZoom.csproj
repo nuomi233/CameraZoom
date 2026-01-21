@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>G:\SteamLibrary\steamapps\common\KotamaAcademyCitadel\BepInEx\interop\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>G:\SteamLibrary\steamapps\common\KotamaAcademyCitadel\BepInEx\core\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Core">
+      <HintPath>G:\SteamLibrary\steamapps\common\KotamaAcademyCitadel\BepInEx\core\BepInEx.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Unity.IL2CPP">
+      <HintPath>G:\SteamLibrary\steamapps\common\KotamaAcademyCitadel\BepInEx\core\BepInEx.Unity.IL2CPP.dll</HintPath>
+    </Reference>
+
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>G:\SteamLibrary\steamapps\common\KotamaAcademyCitadel\BepInEx\interop\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>G:\SteamLibrary\steamapps\common\KotamaAcademyCitadel\BepInEx\interop\Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>G:\SteamLibrary\steamapps\common\KotamaAcademyCitadel\BepInEx\interop\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
