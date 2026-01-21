@@ -1,6 +1,7 @@
 # CameraZoom v1.0
 
 为IL2CPP Unity游戏制作的摄影机控制系统
+目前适用于《少女与学院城》
 
 ## 如何安装
 1. 安装 **BepInEx 6.0 (IL2CPP)**。
